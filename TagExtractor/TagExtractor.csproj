@@ -47,6 +47,7 @@
     <Compile Include="AzureHttpExtractor.cs" />
     <Compile Include="AzureHttpKeyPhrasesExtractor.cs" />
     <Compile Include="AzureHttpLangExtractor.cs" />
+    <Compile Include="DemoModeException.cs" />
     <Compile Include="IKeyPhrasesExtractor.cs" />
     <Compile Include="ILangExtractor.cs" />
     <Compile Include="TagExtractor.cs" />
