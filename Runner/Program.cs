@@ -5,7 +5,7 @@ namespace Runner
 {
 	class Program
 	{
-		private static string _defaultApiKey = "78fd64a2f2474316a341ead6ce0d198e";
+		private static string _defaultApiKey = "029352e2d404450db4394cd4e3758105";
 		private static string _defaultUrl = "https://westeurope.api.cognitive.microsoft.com/text/analytics/v2.0/";
 
 		static void Main(string[] args) {
@@ -18,7 +18,7 @@ namespace Runner
 				Console.WriteLine(ex.Message);
 			}
 			try {
-				var	tags = tExtractor.GetTags(new Guid(), @"Что то на русском");
+				var	tags = tExtractor.GetTags(new Guid(), @"Что то на русском языке Табло Важно Демо");
 				tags.ForEach(Console.WriteLine);
 			} catch (UnsupportedLangException exception) {
 				Console.WriteLine(exception.Message);

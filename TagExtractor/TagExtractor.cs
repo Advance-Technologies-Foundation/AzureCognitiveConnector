@@ -7,7 +7,7 @@ namespace TagExtractor
 {
 	public class TagExtractorExecuter
 	{
-		private const string DemoKey = "78fd64a2f2474316a341ead6ce0d198e";
+		private const string DemoKey = "029352e2d404450db4394cd4e3758105";
 
 		private readonly ILangExtractor _langExtractor;
 		private readonly IKeyPhrasesExtractor _keyPhrasesExtractor;
